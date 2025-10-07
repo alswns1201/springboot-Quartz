@@ -7,7 +7,7 @@ Spring Boot 기반의 Quartz Scheduler 예제 프로젝트로, **동적으로 Jo
 ---
 
 ## 📦 프로젝트 구조
-
+```
 com.scheduler.Quartz
 ├─ jobs
 │ └─ HelloJobs.java // 샘플 Job 클래스, TimerInfo 기반 로그 출력
@@ -21,7 +21,7 @@ com.scheduler.Quartz
 │ └─ TimerUtils.java // JobDetail / Trigger 생성 유틸
 └─ info
 └─ TimerInfo.java // Timer 설정 정보 DTO
-
+```
 
 ---
 
